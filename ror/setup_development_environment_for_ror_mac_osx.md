@@ -3,7 +3,7 @@ This guide show you how to setup development environment for Ruby on Rails (MacO
 # Content
 
  1. [Prerequisites](#prerequisites)
- 2. [Sublime Text][#sublime-text]
+ 2. [Sublime Text](#sublime-text)
  3. [Configure GIT](#configure-git)
  4. [Generate SSH key](#generate-ssh-key)
  5. [Ruby, Rails and all dependencies](#ruby-rails-adn-all-dependencies)

@@ -301,6 +301,10 @@ Use [meta_request](https://github.com/dejan/rails_panel/tree/master/meta_request
 
 [better_errors](https://github.com/charliesome/better_errors) Better error page for Rack apps
 
+### brakeman
+
+[brakeman](https://github.com/presidentbeef/brakeman) A static analysis security vulnerability scanner for Ruby on Rails applications 
+
 # Deployment
 
 ### Mina
