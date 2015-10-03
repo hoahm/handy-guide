@@ -10,6 +10,7 @@ Useful guide for developer.
 * [Setup development environment for Ruby on Rails on Mac OS X](ror/setup_development_environment_for_ror_mac_osx.md)
 * [Setup development enviroment for Ruby on Rails on Ubuntu 14.04](http://www.rubytreesoftware.com/resources/setup-a-rails-41-development-environment-on-ubuntu-1404)
 * [Helpful gems](ror/helpful_gems.md)
+* [Init script for Sidekiq](ror/sidekiq_init_script.md)
 
 # Others
 * [Online tools](online_tool.md)
