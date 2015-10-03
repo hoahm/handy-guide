@@ -10,7 +10,9 @@ This guide show you how to setup development environment for Ruby on Rails (MacO
  6. [PostgreSQL](#postgresql)
  7. [MySQL](#mysql)
  8. [Redis](#redis)
- 9. [References](#references)
+ 9. [Elastic Search](#elastic-search)
+ 10. [Memcached](#memcached)
+ 11. [References](#references)
 
 
 # Prerequisites
@@ -190,6 +192,45 @@ Run redis with configuration file
 
     redis-server /usr/local/etc/redis.conf
 
+# Elastic Search
+
+    brew install elasticsearch 
+
+Verify if install successfully
+
+    brew info elasticsearch
+
+To have launchd start elasticsearch at login:
+
+    ln -sfv /usr/local/opt/elasticsearch/*.plist ~/Library/LaunchAgents
+
+Then to load elasticsearch now:
+
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+
+Or, if you don't want/need launchctl, you can just run:
+
+    elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml
+
+# Memcache
+
+    brew install memcached
+
+Start memcached
+
+    memcached -vv
+
+To have launchd start memcached at login:
+
+    ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
+
+Then to load memcached now:
+
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist
+
+Or, if you don't want/need launchctl, you can just run:
+
+    /usr/local/opt/memcached/bin/memcached
 
 # References
 
@@ -197,3 +238,4 @@ Run redis with configuration file
 * [Install PostgreSQL via homebrew](http://exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew/)
 * [Install Redis via homebrew](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298)
 * [Setup RoR on MacOS 10.10 Yosemite](https://gorails.com/setup/osx/10.10-yosemite)
+* [Getting started with Elastic Search](http://red-badger.com/blog/2013/11/08/getting-started-with-elasticsearch/)
