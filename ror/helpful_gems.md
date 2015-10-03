@@ -109,6 +109,10 @@ OAuth2 strategy for OmniAuth.
 
 [breadcrumbs_on_rails](https://github.com/weppos/breadcrumbs_on_rails) is a simple Ruby on Rails plugin for creating and managing a breadcrumb navigation.
 
+### Gon
+
+[gon](https://github.com/gazay/gon) Your Rails variables in your JS
+
 # API
 
 ### Grape
@@ -393,3 +397,13 @@ for manage settings in rails app.
 [apartment](https://github.com/influitive/apartment) Database multi-tenancy for Rack (and Rails) applications
 
 [apartment-sidekiq](https://github.com/influitive/apartment-sidekiq) Sidekiq support for the Apartment Gem
+
+### browser_details
+
+[browser_details](https://github.com/gshutler/browser_details)  is a Rack Middleware that logs information about the browser used to make a request.
+
+### lograge
+
+[lograge](https://github.com/roidrage/lograge) is an attempt to bring sanity to Rails' noisy and unusable, unparsable and, in the context of running multiple processes and servers, unreadable default logging output. Rails' default approach to log everything is great during development, it's terrible when running it in production. It pretty much renders Rails logs useless to me.
+
+Click [here](http://ionrails.com/2013/03/26/how-to-add-the-request-parameters-along-with-full-url-request-in-lograge-outputted-files/) to know more.
