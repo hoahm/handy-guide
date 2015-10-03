@@ -11,6 +11,7 @@ Useful guide for developer.
 * [Setup development enviroment for Ruby on Rails on Ubuntu 14.04](http://www.rubytreesoftware.com/resources/setup-a-rails-41-development-environment-on-ubuntu-1404)
 * [Helpful gems](ror/helpful_gems.md)
 * [Init script for Sidekiq](ror/sidekiq_init_script.md)
+* [Setup RoR server using Nginx and Phusion Passenger](ror/setup_ror_server_using_nginx_and_phusion_passenger.md)
 
 # Others
 * [Online tools](online_tool.md)
