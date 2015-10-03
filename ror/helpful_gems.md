@@ -8,6 +8,7 @@ This document will list some common and useful gems in Rails development.
  * [File upload](#file-upload)
  * [Background job](#background-job)
  * [Configuration](#configuration)
+ * [3rd Party Services](#3rd-party-service)
  * [Development environment](#development-environment)
  * [Deployment](#deployment)
  * [Others](#others)
@@ -27,6 +28,10 @@ This document will list some common and useful gems in Rails development.
 [CanCan](https://github.com/ryanb/cancan) is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. All permissions are defined in a single location (the Ability class) and not duplicated across controllers, views, and database queries.
 
 [Cancancan](https://github.com/CanCanCommunity/cancancan) is the continuation of CanCan
+
+### Pundit
+
+[pundit](https://github.com/elabs/pundit) Minimal authorization through OO design and pure Ruby classes
 
 ### Omniauth
 
@@ -88,6 +93,18 @@ OAuth2 strategy for OmniAuth.
 
 [react-rails](https://github.com/reactjs/react-rails) is a Ruby gem for automatically transforming JSX and using React in Rails.
 
+### momentjs-rails
+
+[momentjs-rails](https://github.com/derekprior/momentjs-rails) The Moment.js JavaScript library ready to play with the Rails Asset Pipeline
+
+### bower-rails
+
+[bower-rails](https://github.com/rharriso/bower-rails/) Bower support for Rails projects. Dependency file is bower.json in Rails root dir or Bowerfile if you use DSL
+
+### autonumeric-rail
+
+[autonumeric-rail](https://github.com/randoum/autonumeric-rails) autoNumeric.js library with an ujs flavor, ready-to-use for rails.
+
 ### Breadscrumbs on Rails
 
 [breadcrumbs_on_rails](https://github.com/weppos/breadcrumbs_on_rails) is a simple Ruby on Rails plugin for creating and managing a breadcrumb navigation.
@@ -138,6 +155,14 @@ OAuth2 strategy for OmniAuth.
 
 [carrierwave](https://github.com/carrierwaveuploader/carrierwave) is a classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks.
 
+### aws-sdk
+
+[aws-sdk](https://github.com/aws/aws-sdk-ruby) The official AWS SDK for Ruby.
+
+### s3_direct_upload
+
+[s3_direct_upload](https://github.com/waynehoover/s3_direct_upload) Direct Upload to Amazon S3 With CORS
+
 # Configuration
 
 ### Figaro
@@ -147,6 +172,66 @@ OAuth2 strategy for OmniAuth.
 ### Dotenv
 
 [dotenv](https://github.com/bkeepers/dotenv) loads environment variables from `.env`.
+
+# 3rd Party Service
+
+## Exception Handling & Performance Monitoring
+
+### HoneyBadger
+
+[honeybadger](https://github.com/honeybadger-io/honeybadger-ruby) is a ruby gem for reporting errors to honeybadger.io
+
+### Newrelic
+
+[Newrelic](https://github.com/newrelic/rpm) is a New Relic RPM Ruby Agent.
+
+Use [newrelic-grape](https://github.com/xinminlabs/newrelic-grape) for monitoring performance of Grape api.
+
+## Push notification
+
+### Parse ruby client
+
+[parse-ruby-client](https://github.com/adelevie/parse-ruby-client) is a simple Ruby client for the parse.com REST API
+
+## SMS & Phone Service
+
+## Nexmo
+
+[nexmo](https://github.com/timcraft/nexmo) used for sending sms globally.
+
+### Twillio-ruby
+
+[twillio-ruby](https://github.com/twilio/twilio-ruby) used for sending sms globally.
+
+### hoiio
+
+[hoiio](https://github.com/stvvan/hoiio-ruby) Hoiio SDK for Ruby
+
+### Fibo SMS
+
+[fibo](https://github.com/voanhduy1512/fibo) used for sending sms in Vietnam.
+
+### intercom-rails
+
+[intercom-rails](https://github.com/intercom/intercom-rails) Intercom is one place for every team in an internet business to communicate with customers, personally, at scale—on your website, inside web and mobile apps, and by email.
+
+## Realtime
+
+### Firebase
+
+[firebase-ruby](https://github.com/oscardelben/firebase-ruby) is a Ruby wrapper for Firebase.
+
+### Pusher
+
+[pusher-http-ruby](https://github.com/pusher/pusher-http-ruby) is a Ruby server library for the Pusher API, used for realtime application.
+
+## Payment
+
+### paypal-sdk-core
+
+[paypal-sdk-core](https://github.com/paypal/sdk-core-ruby) Core Library for PayPal Ruby SDKs
+
+### 
 
 # Background job
 
@@ -162,31 +247,67 @@ OAuth2 strategy for OmniAuth.
 
 [sidekiq](https://github.com/mperham/sidekiq) is a simple, efficient background processing for Ruby
 
-### HoneyBadger
+# Development and Testing
 
-[honeybadger](https://github.com/honeybadger-io/honeybadger-ruby) is a ruby gem for reporting errors to honeybadger.io
-
-### Newrelic
-
-[Newrelic](https://github.com/newrelic/rpm) is a New Relic RPM Ruby Agent.
-
-# Development environment
-
-# Mailcacther
+### Mailcacther
 
 [mailcatcher](https://github.com/sj26/mailcatcher) catches mail and serves it through a dream.
 
-# Did you mean
+### letter_opener
+
+[letter_opener](https://github.com/ryanb/letter_opener) Preview mail in the browser instead of sending.
+
+### Did you mean
 
 [did_you_mean](https://github.com/yuki24/did_you_mean)
 
+### rack-mini-profiler
+
+[rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) Middleware that displays speed badge for every html page. Designed to work both in production and in development.
+
+### awesome_print
+ 
+[awesome_print](https://github.com/michaeldv/awesome_print) Awesome Print is a Ruby library that pretty prints Ruby objects in full color exposing their internal structure with proper indentation. Rails ActiveRecord objects and usage within Rails templates are supported via included mixins.
+
+### shog
+
+[shog](https://github.com/phallguy/shog) Simple colored logging for rails 4 apps 
+
+### timecop
+
+[timecop](https://github.com/travisjeffery/timecop) A gem providing "time travel", "time freezing", and "time acceleration" capabilities, making it simple to test time-dependent code. It provides a unified method to mock Time.now, Date.today, and DateTime.now in a single call.
+
+### simplecov
+
+[simplecov](https://github.com/colszowka/simplecov) Code coverage for Ruby 1.9+ with a powerful configuration library and automatic merging of coverage across test suites
+
+### webmock
+
+[webmock](https://github.com/bblimke/webmock) Library for stubbing and setting expectations on HTTP requests in Ruby
+
+### bullet
+
+[bullet](https://github.com/flyerhzm/bullet) help to kill N+1 queries and unused eager loading.
+
+### rerun
+
+[rerun](https://github.com/alexch/rerun) Restarts an app when the filesystem changes. Uses growl and FSEventStream if on OS X.
+
+### meta_request
+
+Use [meta_request](https://github.com/dejan/rails_panel/tree/master/meta_request) and [](https://github.com/dejan/rails_panel) for supporting Rails development on Chrome.
+
+### better_errors
+
+[better_errors](https://github.com/charliesome/better_errors) Better error page for Rack apps
+
 # Deployment
 
-## Mina
+### Mina
 
 [mina](https://github.com/mina-deploy/mina) is a really fast deployer and server automation tool.
 
-## Capistrano
+### Capistrano
 
 [capistrano](https://github.com/capistrano/capistrano) is a remote multi-server automation tool.
 
@@ -203,6 +324,10 @@ OAuth2 strategy for OmniAuth.
 ### Nested form for
 
 [nested_form](https://github.com/ryanb/nested_form) is a Rails plugin to conveniently handle multiple models in a single form.
+
+### country_select
+
+[country_select](https://github.com/stefanpenner/country_select) Gemification of rails's country_select
 
 ### has_scope
 
@@ -224,7 +349,43 @@ OAuth2 strategy for OmniAuth.
 
 [friendly_id](https://github.com/norman/friendly_id) is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
 
-### Parse ruby client
+### rails-settings-cached
 
-[parse-ruby-client](https://github.com/adelevie/parse-ruby-client) is a simple Ruby client for the parse.com REST API
+[rails-settings-cached](https://github.com/huacnlee/rails-settings-cached) This is improved from rails-settings, added caching for all settings
 
+Use it with [rails-settings-ui](https://github.com/accessd/rails-settings-ui) 
+for manage settings in rails app.
+
+### chartkick & groupdate
+
+[chartkick](https://github.com/mher/chartkick.py) & [groupdate](https://github.com/ankane/groupdate) for creating beautiful Javascript charts with one line of Ruby.
+
+### Audited
+
+[audited](https://github.com/collectiveidea/audited) (previously acts_as_audited) is an ORM extension that logs all changes to your models. Audited also allows you to record who made those changes, save comments and associate models related to the changes.
+
+### public_activity
+
+[public_activity](https://github.com/chaps-io/public_activity) Easy activity tracking for models - similar to Github's Public Activity
+
+### Savon
+
+[savon](https://github.com/savonrb/savon) Heavy metal SOAP client
+
+### whenever
+
+[whenever](https://github.com/javan/whenever) is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.
+
+### wisper
+
+[wisper](https://github.com/krisleech/wisper) A micro library providing Ruby objects with Publish-Subscribe capabilities
+
+### barby
+
+[barby](https://github.com/toretore/barby) The Ruby barcode generator
+
+### apartment
+
+[apartment](https://github.com/influitive/apartment) Database multi-tenancy for Rack (and Rails) applications
+
+[apartment-sidekiq](https://github.com/influitive/apartment-sidekiq) Sidekiq support for the Apartment Gem
