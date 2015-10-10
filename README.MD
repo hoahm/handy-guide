@@ -14,4 +14,4 @@ Useful guide for developer.
 * [Setup RoR server using Nginx and Phusion Passenger](ror/setup_ror_server_using_nginx_and_phusion_passenger.md)
 
 # Others
-* [Online tools](online_tool.md)
+* [Online tools](online_tools.md)

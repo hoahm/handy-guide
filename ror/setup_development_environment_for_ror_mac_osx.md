@@ -34,6 +34,26 @@ Run this command to create alias
 
     ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
+## Packages
+
+Then, install the following packages: 
+ * DocBlockr
+ * Emmet
+ * SublimeLinter
+ * BracketHighligter
+ * Rspec
+ * Guard
+ * SideBarEnhancements
+ * Haml
+ * SCSS Snippets
+ * SASS Snippets
+ * Coffeescript
+ * Solarized Color Scheme
+ * Autocomplete
+ * Color Highlighter
+ * IcedCoffeeScript
+ * RuboCop
+ * Ruby Slim
 
 ## Customize SublimeText
 
@@ -42,7 +62,6 @@ Go to Sublime Text > Preferences > Settings (User) and paste the following:
     {
       "auto_complete": true,
       "auto_complete_commit_on_tab": true,
-      "color_scheme": "Packages/User/SublimeLinter/Monokai (Flake8Lint) (SL).tmTheme",
       "copy_with_empty_selection": true,
       "default_initial": "~/projects",
       "ensure_newline_at_eof_on_save": true,
@@ -62,22 +81,6 @@ Go to Sublime Text > Preferences > Settings (User) and paste the following:
       "trim_trailing_white_space_on_save": true,
       "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
     }
-
-
-## Packages
-
-Then, install the following packages: 
- * DocBlockr
- * Emmet
- * SublimeLinter
- * BracketHighligter
- * Rspec
- * Guard
- * SideBarEnhancements
- * Haml
- * Slim
- * Scss
- * Coffeescript
 
 # Configure GIT
 
