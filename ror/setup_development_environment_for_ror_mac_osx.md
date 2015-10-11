@@ -26,6 +26,14 @@ Install homebrew
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+Install [iTerm](https://www.iterm2.com/) with [zsh](https://github.com/robbyrussell/oh-my-zsh) and [z commands](https://github.com/rupa/z)
+
+    brew install zsh
+    brew install z
+    chsh -s /usr/local/bin/zsh
+
+Then restart.
+
 # Sublime Text
 
     Download and install [ublime Text 3](http://www.sublimetext.com/3) and [ackage Control](https://packagecontrol.io/installation).
@@ -242,3 +250,4 @@ Or, if you don't want/need launchctl, you can just run:
 * [Install Redis via homebrew](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298)
 * [Setup RoR on MacOS 10.10 Yosemite](https://gorails.com/setup/osx/10.10-yosemite)
 * [Getting started with Elastic Search](http://red-badger.com/blog/2013/11/08/getting-started-with-elasticsearch/)
+* [Install Oh myzsh on MacOS X](http://zanshin.net/2013/09/03/how-to-use-homebrew-zsh-instead-of-max-os-x-default/)

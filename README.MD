@@ -18,3 +18,5 @@ Useful guide for developer.
 
 # Others
 * [Online tools](online_tools.md)
+* [PostgreSQL cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf)
+* [Bash shell cheatsheet](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)
