@@ -1,6 +1,8 @@
 ## 1. Initialize project
 
     rails new <project-name> --database=postgresql
+    
+For other DBMS, [click here](https://github.com/hoahm/handy-guide/blob/master/ror/rails_command_cheatsheet.md#rails-new)
 
 ## 2. Add rspec & some useful gems for testing, development environment
 
