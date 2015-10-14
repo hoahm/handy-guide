@@ -15,6 +15,7 @@ Useful guide for developer.
 * [Rails command cheatsheet](ror/rails_command_cheatsheet.md)
 * [Init script for Sidekiq](ror/sidekiq_init_script.md)
 * [Setup RoR server using Nginx and Phusion Passenger](ror/setup_ror_server_using_nginx_and_phusion_passenger.md)
+* [Sidekiq & Apartment Sidekiq cheatsheet](ror/sidekiq_cheatsheet.md)
 
 # Others
 * [Online tools](online_tools.md)
