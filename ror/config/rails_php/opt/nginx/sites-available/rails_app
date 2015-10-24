@@ -1,0 +1,33 @@
+server {
+    listen       80;
+    server_name example.com;
+
+    passenger_enabled on;
+    passenger_min_instances 2;
+    root /home/webapp/rails_app/current/public;
+
+    location ~ ^/(assets)/ {
+        root /home/webapp/rails_app/current/public;
+        gzip_static on;
+        expires max;
+        add_header Cache-Control public;
+    }
+
+    access_log /home/webapp/rails_app/current/public/log/access.log;
+
+    #charset koi8-r;
+
+    access_log  /home/webapp/rails_app/current/logs/host.access.log  main;
+
+    location / {
+        root   html;
+        index  index.html index.htm;
+    }
+
+    # redirect server error pages to the static page /50x.html
+    #
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+}
