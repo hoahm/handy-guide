@@ -9,6 +9,7 @@ Useful guide for developer.
 # RoR
 * [Setup development environment for Ruby on Rails on Mac OS X](ror/setup_development_environment_for_ror_mac_osx.md)
 * [Setup development enviroment for Ruby on Rails on Ubuntu 14.04](http://www.rubytreesoftware.com/resources/setup-a-rails-41-development-environment-on-ubuntu-1404)
+* [RoR Training Contents](https://docs.google.com/spreadsheets/d/1bqtfhpqJe0JDqf1DR1cb-ntx4Ix7acbkIqabBfv62I8/edit?usp=sharing)
 * [Rails for beginners](ror/rails_for_beginners.md)
 * [Rails workflow](ror/rails_workflow.md)
 * [Helpful gems](ror/helpful_gems.md)
