@@ -20,6 +20,11 @@ Useful guide for developer.
 * [Setup server using Nginx and PHP, Phusion Passenger for serving both Rails application and PHP application](ror/setup_nginx_and_phusion_passenger_for_rails_and_php.md)
 * [Sidekiq & Apartment Sidekiq cheatsheet](ror/sidekiq_cheatsheet.md)
 
+# Devops
+
+* [Slackpost command](devops/slackpost.md)
+* [Script alerting when system memory is running out](devops/memory_system_alert.md)
+
 # Others
 * [Online tools](online_tools.md)
 * [PostgreSQL cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf)
