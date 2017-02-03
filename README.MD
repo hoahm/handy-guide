@@ -22,6 +22,8 @@ Useful guide for developer.
 
 ---
  * [CoffeeScript basic syntax](http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript)
+ * [SCSS for begiiner](http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-sass)
+ * [SASS for beginner](http://thesassway.com/beginner)
 
 # Devops
 
