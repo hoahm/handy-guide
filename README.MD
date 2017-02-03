@@ -20,6 +20,9 @@ Useful guide for developer.
 * [Setup server using Nginx and PHP, Phusion Passenger for serving both Rails application and PHP application](ror/setup_nginx_and_phusion_passenger_for_rails_and_php.md)
 * [Sidekiq & Apartment Sidekiq cheatsheet](ror/sidekiq_cheatsheet.md)
 
+---
+ * [CoffeeScript basic syntax](http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript)
+
 # Devops
 
 * [Slackpost command](devops/slackpost.md)
